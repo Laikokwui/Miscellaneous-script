@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+        button {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <button>Submit</button>
+        <script>
+            $(function(){
+                $("button").on({
+                    mouseover: function() {
+                        $(this).css({
+                            left:(Math.random() * 200) + "px",
+                            top:(Math.random() * 200) + "px"
+                        });
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
