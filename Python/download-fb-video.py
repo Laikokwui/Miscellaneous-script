@@ -5,7 +5,7 @@ import requests as r
 import wget
 
 
-FILEDIR = os.path.join('/Downloads')
+FILEDIR = os.path.join('')
 ERASE_LINE = '\x1b[2K'
 
 try:
